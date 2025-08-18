@@ -1,5 +1,4 @@
-import React from 'react';
-import { Github, Code, Zap, Users, Award, ExternalLink, Mail, MapPin, Calendar } from 'lucide-react';
+import { Github, Code, Zap, Award, ExternalLink, Mail, Calendar } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import Header from './components/Header';
 import Logo from './components/Logo';
@@ -16,8 +15,8 @@ function App() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <div className="text-center">
             <div className="relative inline-block mb-8">
-              <div className="w-32 h-32 mx-auto bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center shadow-2xl">
-                <Logo size={64} className="drop-shadow" />
+              <div className="w-32 h-32 mx-auto bg-white rounded-full flex items-center justify-center shadow-2xl">
+                <img src="/logo.png" alt="HuanChain logo" className="w-16 h-16" />
               </div>
               <div className="absolute -top-2 -right-2 w-8 h-8 bg-green-500 rounded-full border-4 border-white shadow-lg"></div>
             </div>
@@ -233,7 +232,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex items-center gap-2 mb-4 md:mb-0">
-              <Code className="w-6 h-6 text-purple-400" />
+              <img src="/logo.png" alt="HuanChain logo" className="w-6 h-6" />
               <span className="text-white font-semibold">{t('brand')}</span>
             </div>
             

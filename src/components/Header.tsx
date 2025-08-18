@@ -1,6 +1,4 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
-import Logo from './Logo';
 import { User, Wrench, FolderOpen, Mail } from 'lucide-react';
 
 export default function Header() {
@@ -10,7 +8,8 @@ export default function Header() {
       <div className="backdrop-blur-md bg-slate-900/50 border-b border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <a href="#home" className="flex items-center gap-2">
-            <Logo size={28} />
+            {/* <Logo size={28} /> */}
+            <img src="/logo.png" alt="HuanChain" className="w-8 h-8" />
             <span className="text-white font-semibold">{t('brand')}</span>
           </a>
           <nav className="hidden md:flex items-center gap-6 text-gray-300">
