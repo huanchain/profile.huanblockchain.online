@@ -1,0 +1,31 @@
+import React from 'react';
+
+type LogoProps = {
+  size?: number;
+  className?: string;
+};
+
+export default function Logo({ size = 32, className }: LogoProps) {
+  const dimension = size;
+  const color = '#2563EB';
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 64 64"
+      width={dimension}
+      height={dimension}
+      className={className}
+    >
+      <g fill={color}>
+        <polygon points="32,6 58,32 32,58 6,32" />
+        <polygon points="32,24 40,32 32,40 24,32" />
+        <polygon points="18,32 22,36 18,40 14,36" />
+        <polygon points="46,32 50,36 46,40 42,36" />
+        <polygon points="32,18 36,22 32,26 28,22" />
+        <polygon points="32,46 36,50 32,54 28,50" />
+      </g>
+    </svg>
+  );
+}
+
+

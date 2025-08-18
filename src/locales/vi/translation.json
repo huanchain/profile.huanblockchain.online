@@ -1,0 +1,84 @@
+{
+  "brand": "HuanChain",
+  "hero": {
+    "title": "HuanChain",
+    "subtitle": "Senior Software Developer & Blockchain Engineer",
+    "expSoftware": "10+ năm phát triển phần mềm",
+    "expBlockchain": "4+ năm trong lĩnh vực Blockchain",
+    "viewGithub": "Xem GitHub",
+    "getInTouch": "Liên hệ"
+  },
+  "about": {
+    "title": "Về Tôi",
+    "p1": "Với hơn một thập kỷ kinh nghiệm phát triển phần mềm, tôi đã phát triển từ việc xây dựng các ứng dụng truyền thống đến tiên phong các giải pháp blockchain. Hành trình của tôi trải dài qua nhiều công nghệ và lĩnh vực, luôn được thúc đẩy bởi sự đổi mới và xuất sắc.",
+    "p2": "Trong 4 năm qua, tôi đã đắm mình sâu vào hệ sinh thái blockchain, phát triển smart contract, giao thức DeFi và các ứng dụng phi tập trung, mở rộng giới hạn của những gì có thể trong không gian Web3.",
+    "skills": [
+      "Phát triển Full-Stack",
+      "Kiến trúc Blockchain",
+      "Smart Contracts",
+      "DeFi",
+      "Web3",
+      "Thiết kế Hệ thống"
+    ],
+    "software": {
+      "title": "Phát Triển Phần Mềm",
+      "caption": "Kinh nghiệm 10+ năm",
+      "desc": "Kinh nghiệm sâu rộng trong phát triển full-stack, kiến trúc hệ thống, và dẫn dắt đội ngũ phát triển trên nhiều lĩnh vực."
+    },
+    "blockchain": {
+      "title": "Kỹ Sư Blockchain",
+      "caption": "Chuyên sâu 4+ năm",
+      "desc": "Chuyên về phát triển blockchain, smart contracts, giao thức DeFi và xây dựng các ứng dụng phi tập trung thế hệ mới."
+    }
+  },
+  "skills": {
+    "title": "Kỹ Năng Chuyên Môn",
+    "frontend": "Phát Triển Frontend",
+    "backend": "Phát Triển Backend",
+    "blockchain": "Blockchain & Web3",
+    "frontendList": ["React/Next.js", "TypeScript", "Tailwind CSS", "Vue.js"],
+    "backendList": ["Node.js", "Python", "Go", "PostgreSQL", "MongoDB"],
+    "blockchainList": ["Solidity", "Ethereum", "Smart Contracts", "DeFi", "Web3.js"]
+  },
+  "projects": {
+    "title": "Dự Án Tiêu Biểu",
+    "list": [
+      {
+        "title": "Giao Thức DeFi",
+        "description": "AMM với khả năng yield farming nâng cao",
+        "tags": ["Solidity", "React", "Web3"]
+      },
+      {
+        "title": "NFT Marketplace",
+        "description": "Chợ NFT đầy đủ tính năng với khả năng mint và giao dịch",
+        "tags": ["Next.js", "Ethereum", "IPFS"]
+      },
+      {
+        "title": "Enterprise DApp",
+        "description": "Ứng dụng phi tập trung quy mô lớn cho quản lý chuỗi cung ứng",
+        "tags": ["Vue.js", "Go", "Blockchain"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Cùng Xây Dựng Điều Tuyệt Vời",
+    "subtitle": "Sẵn sàng hợp tác cho dự án tiếp theo của bạn? Dù là phần mềm truyền thống hay giải pháp blockchain tiên tiến, tôi luôn sẵn sàng biến ý tưởng của bạn thành hiện thực.",
+    "githubProfile": "Hồ sơ GitHub",
+    "contactMe": "Liên hệ"
+  },
+  "footer": {
+    "copyright": "© 2025 HuanChain. Xây dựng tương lai với công nghệ blockchain."
+  },
+  "language": {
+    "switchToEnglish": "English",
+    "switchToVietnamese": "Tiếng Việt"
+  },
+  "nav": {
+    "about": "Giới thiệu",
+    "skills": "Kỹ năng",
+    "projects": "Dự án",
+    "contact": "Liên hệ"
+  }
+}
+
+

@@ -1,0 +1,84 @@
+{
+  "brand": "HuanChain",
+  "hero": {
+    "title": "HuanChain",
+    "subtitle": "Senior Software Developer & Blockchain Engineer",
+    "expSoftware": "10+ years in Software Development",
+    "expBlockchain": "4+ years in Blockchain",
+    "viewGithub": "View GitHub",
+    "getInTouch": "Get In Touch"
+  },
+  "about": {
+    "title": "About Me",
+    "p1": "With over a decade of experience in software development, I've evolved from building traditional applications to pioneering blockchain solutions. My journey spans across various technologies and industries, always driven by innovation and excellence.",
+    "p2": "For the past 4 years, I've been deeply immersed in the blockchain ecosystem, developing smart contracts, DeFi protocols, and decentralized applications that push the boundaries of what's possible in the Web3 space.",
+    "skills": [
+      "Full-Stack Development",
+      "Blockchain Architecture",
+      "Smart Contracts",
+      "DeFi",
+      "Web3",
+      "System Design"
+    ],
+    "software": {
+      "title": "Software Development",
+      "caption": "10+ Years Experience",
+      "desc": "Extensive experience in full-stack development, system architecture, and leading development teams across various industries."
+    },
+    "blockchain": {
+      "title": "Blockchain Engineering",
+      "caption": "4+ Years Specialized",
+      "desc": "Specialized in blockchain development, smart contracts, DeFi protocols, and building next-generation decentralized applications."
+    }
+  },
+  "skills": {
+    "title": "Technical Expertise",
+    "frontend": "Frontend Development",
+    "backend": "Backend Development",
+    "blockchain": "Blockchain & Web3",
+    "frontendList": ["React/Next.js", "TypeScript", "Tailwind CSS", "Vue.js"],
+    "backendList": ["Node.js", "Python", "Go", "PostgreSQL", "MongoDB"],
+    "blockchainList": ["Solidity", "Ethereum", "Smart Contracts", "DeFi", "Web3.js"]
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "list": [
+      {
+        "title": "DeFi Protocol",
+        "description": "Automated market maker with advanced yield farming capabilities",
+        "tags": ["Solidity", "React", "Web3"]
+      },
+      {
+        "title": "NFT Marketplace",
+        "description": "Full-featured marketplace with minting and trading capabilities",
+        "tags": ["Next.js", "Ethereum", "IPFS"]
+      },
+      {
+        "title": "Enterprise DApp",
+        "description": "Large-scale decentralized application for supply chain management",
+        "tags": ["Vue.js", "Go", "Blockchain"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Let's Build Something Amazing",
+    "subtitle": "Ready to collaborate on your next project? Whether it's traditional software or cutting-edge blockchain solutions, I'm here to help bring your ideas to life.",
+    "githubProfile": "GitHub Profile",
+    "contactMe": "Contact Me"
+  },
+  "footer": {
+    "copyright": "© 2025 HuanChain. Building the future with blockchain technology."
+  },
+  "language": {
+    "switchToEnglish": "English",
+    "switchToVietnamese": "Tiếng Việt"
+  },
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  }
+}
+
+
