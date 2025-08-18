@@ -1,7 +1,6 @@
 import { Github, Code, Zap, Award, ExternalLink, Mail, Calendar } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import Header from './components/Header';
-import Logo from './components/Logo';
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -181,20 +180,31 @@ function App() {
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {(t('projects.list', { returnObjects: true }) as Array<{ title: string; description: string; tags: string[] }>).map((project, index) => (
+            {(t('projects.list', { returnObjects: true }) as Array<{ title: string; description: string; tags: string[]; demo: string }>).map((project, index) => (
               <div key={index} className="group bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-8 hover:bg-white/15 transition-all duration-300 hover:scale-105">
                 <div className="flex items-center justify-between mb-4">
                   <h3 className="text-xl font-semibold text-white">{project.title}</h3>
                   <ExternalLink className="w-5 h-5 text-white/60 group-hover:text-white transition-colors" />
                 </div>
                 <p className="text-gray-300 mb-6">{project.description}</p>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
                     <span key={tag} className="px-3 py-1 bg-gradient-to-r from-blue-600/20 to-purple-600/20 border border-blue-500/30 rounded-full text-blue-300 text-xs">
                       {tag}
                     </span>
                   ))}
                 </div>
+                {project.demo !== "#" && (
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white text-sm font-medium rounded-lg transition-all duration-300 hover:scale-105"
+                  >
+                    <span>{t('projects.liveDemo')}</span>
+                    <ExternalLink className="w-4 h-4" />
+                  </a>
+                )}
               </div>
             ))}
           </div>

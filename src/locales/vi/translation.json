@@ -42,21 +42,25 @@
   },
   "projects": {
     "title": "Dự Án Tiêu Biểu",
+    "liveDemo": "Xem Demo",
     "list": [
       {
-        "title": "Giao Thức DeFi",
-        "description": "AMM với khả năng yield farming nâng cao",
-        "tags": ["Solidity", "React", "Web3"]
+        "title": "HuanChain DEX",
+        "description": "Sàn giao dịch phi tập trung với AMM và yield farming",
+        "tags": ["Solidity", "React", "Web3"],
+        "demo": "https://dex.huanblockchain.online/"
       },
       {
         "title": "NFT Marketplace",
         "description": "Chợ NFT đầy đủ tính năng với khả năng mint và giao dịch",
-        "tags": ["Next.js", "Ethereum", "IPFS"]
+        "tags": ["Next.js", "Ethereum", "IPFS"],
+        "demo": "#"
       },
       {
         "title": "Enterprise DApp",
         "description": "Ứng dụng phi tập trung quy mô lớn cho quản lý chuỗi cung ứng",
-        "tags": ["Vue.js", "Go", "Blockchain"]
+        "tags": ["Vue.js", "Go", "Blockchain"],
+        "demo": "#"
       }
     ]
   },

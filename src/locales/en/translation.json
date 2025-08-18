@@ -42,21 +42,25 @@
   },
   "projects": {
     "title": "Featured Projects",
+    "liveDemo": "Live Demo",
     "list": [
       {
-        "title": "DeFi Protocol",
-        "description": "Automated market maker with advanced yield farming capabilities",
-        "tags": ["Solidity", "React", "Web3"]
+        "title": "HuanChain DEX",
+        "description": "Live decentralized exchange with automated market maker and yield farming",
+        "tags": ["Solidity", "React", "Web3"],
+        "demo": "https://dex.huanblockchain.online/"
       },
       {
         "title": "NFT Marketplace",
         "description": "Full-featured marketplace with minting and trading capabilities",
-        "tags": ["Next.js", "Ethereum", "IPFS"]
+        "tags": ["Next.js", "Ethereum", "IPFS"],
+        "demo": "#"
       },
       {
         "title": "Enterprise DApp",
         "description": "Large-scale decentralized application for supply chain management",
-        "tags": ["Vue.js", "Go", "Blockchain"]
+        "tags": ["Vue.js", "Go", "Blockchain"],
+        "demo": "#"
       }
     ]
   },
