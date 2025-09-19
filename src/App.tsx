@@ -1,10 +1,22 @@
-import { Github, Code, Zap, Award, ExternalLink, Mail, Calendar } from 'lucide-react';
+import { Github, Code, Zap, Award, ExternalLink, Mail, Calendar, ChevronDown, Star, Users, Briefcase, MessageCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import Header from './components/Header';
+import { useState, useEffect } from 'react';
 
 function App() {
   const { t, i18n } = useTranslation();
+  const [isVisible, setIsVisible] = useState(false);
+  const [scrollY, setScrollY] = useState(0);
+  
   const setLanguage = (lng: 'en' | 'vi') => i18n.changeLanguage(lng);
+
+  useEffect(() => {
+    setIsVisible(true);
+    const handleScroll = () => setScrollY(window.scrollY);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900" id="home">
       <Header />
@@ -54,10 +66,16 @@ function App() {
                 <ExternalLink className="w-4 h-4 text-white/70" />
               </a>
               
-              <button className="flex items-center gap-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 px-8 py-4 rounded-full text-white font-medium transition-all duration-300 hover:scale-105 hover:shadow-xl">
-                <Mail className="w-5 h-5" />
+              <a 
+                href="https://t.me/huancapital" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="group flex items-center gap-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 px-8 py-4 rounded-full text-white font-medium transition-all duration-300 hover:scale-105 hover:shadow-xl"
+              >
+                <MessageCircle className="w-5 h-5 group-hover:rotate-12 transition-transform" />
                 <span>{t('hero.getInTouch')}</span>
-              </button>
+                <ExternalLink className="w-4 h-4 text-white/70" />
+              </a>
             </div>
           </div>
         </div>
@@ -229,10 +247,16 @@ function App() {
               <ExternalLink className="w-4 h-4 text-white/70" />
             </a>
             
-            <button className="flex items-center gap-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 px-8 py-4 rounded-full text-white font-medium transition-all duration-300 hover:scale-105 hover:shadow-xl">
-              <Mail className="w-5 h-5" />
+            <a 
+              href="https://t.me/huancapital" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="group flex items-center gap-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 px-8 py-4 rounded-full text-white font-medium transition-all duration-300 hover:scale-105 hover:shadow-xl"
+            >
+              <MessageCircle className="w-5 h-5 group-hover:rotate-12 transition-transform" />
               <span>{t('contact.contactMe')}</span>
-            </button>
+              <ExternalLink className="w-4 h-4 text-white/70" />
+            </a>
           </div>
         </div>
       </section>

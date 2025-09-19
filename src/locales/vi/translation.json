@@ -6,7 +6,7 @@
     "expSoftware": "10+ năm phát triển phần mềm",
     "expBlockchain": "4+ năm trong lĩnh vực Blockchain",
     "viewGithub": "Xem GitHub",
-    "getInTouch": "Liên hệ"
+    "getInTouch": "Liên hệ Telegram"
   },
   "about": {
     "title": "Về Tôi",
@@ -51,16 +51,16 @@
         "demo": "https://dex.huanblockchain.online/"
       },
       {
-        "title": "NFT Marketplace",
-        "description": "Chợ NFT đầy đủ tính năng với khả năng mint và giao dịch",
-        "tags": ["Next.js", "Ethereum", "IPFS"],
-        "demo": "#"
+        "title": "Blockchain Wallet",
+        "description": "Ví blockchain đầy đủ tính năng với khả năng gửi, nhận và quản lý tài sản số",
+        "tags": ["Next.js", "Ethereum", "Web3.js"],
+        "demo": "https://blockchain-wallet.huanblockchain.online/"
       },
       {
-        "title": "Enterprise DApp",
-        "description": "Ứng dụng phi tập trung quy mô lớn cho quản lý chuỗi cung ứng",
-        "tags": ["Vue.js", "Go", "Blockchain"],
-        "demo": "#"
+        "title": "Centralized Exchange",
+        "description": "Sàn giao dịch tập trung với tính năng trading, staking và quản lý tài sản",
+        "tags": ["Vue.js", "Go", "Trading Engine"],
+        "demo": "https://exchange.huanblockchain.online/"
       }
     ]
   },
@@ -68,7 +68,7 @@
     "title": "Cùng Xây Dựng Điều Tuyệt Vời",
     "subtitle": "Sẵn sàng hợp tác cho dự án tiếp theo của bạn? Dù là phần mềm truyền thống hay giải pháp blockchain tiên tiến, tôi luôn sẵn sàng biến ý tưởng của bạn thành hiện thực.",
     "githubProfile": "Hồ sơ GitHub",
-    "contactMe": "Liên hệ"
+    "contactMe": "Liên hệ Telegram"
   },
   "footer": {
     "copyright": "© 2025 HuanChain. Xây dựng tương lai với công nghệ blockchain."
